@@ -1,0 +1,49 @@
+.grid-container{
+  display: grid;
+  grid-template-areas:
+               "box1 box2 box3 "
+               "box4 box5 box6 "
+               "box4 box5 box6 "
+           ;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-gap: 10px;
+
+}
+.box1{
+  background-color:pink;
+  grid-area: box1;
+  height:100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box2{
+  background-color:pink;
+  grid-area: box2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box3{
+  background-color:pink;
+  grid-area: box3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box4{
+  background-color:pink;
+  grid-area: box4;
+  padding: 20px 5px 0px 5px;
+}
+.box5{
+  background-color:pink;
+  grid-area: box5;
+  padding: 20px 5px 0px 5px;
+}
+.box6{
+  background-color:pink;
+  grid-area: box6;
+  padding: 20px 5px 0px 5px;
+}
